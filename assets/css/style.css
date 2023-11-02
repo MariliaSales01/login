@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:ital,wght@0,500;1,500&family=Poppins:wght@100;200;300;400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter','sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#afd9d5, #d5d8d6,#76d0cf,#a8c6d2,#75b2ce);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}   
+
+.Container-login{
+    width: 80%;
+    height: 80vh;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 110px;
+    align-items: center;
+}
+
+.img-log{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+h1 i{  
+    font-size: 20px; 
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: #d6d6d6;
+    border-radius: 8px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 20px;
+}
+
+input::placeholder{
+    color: #6e6e6e;
+}
+
+.button-login{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 22px;
+}
+.button-login a{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(#afd9d5,#a8c6d2,#75b2ce);
+    border-radius: 15px;
+}
+
+.senha{
+    font-size: 12px; 
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.label-user input{
+    display: flex;
+    border: none;
+    padding: 8px 8px 8px;
+    border-radius: 15px;
+    outline: none;   
+    padding-left: 30px;
+    background-color: #b8b8b8;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+.label-user i{
+    font-size: 15px;
+    color: #000000;
+    transform: translateX(10px) translateY(25px);
+}
+
+.dark#login_form,
+.dark#login_form .label-user i{
+    color: #ffffff;
+}
+
+.dark#login_form .container{
+    background-color: #121213;
+}
+
+.dark#login_form .button-login a{
+    background-color: #ffffff;
+    color: #000000;
+}
